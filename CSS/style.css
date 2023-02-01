@@ -44,13 +44,12 @@ address {
 
 /*========START HEADER =========*/
 .main-header {
-    padding-top: 32px;
-    padding-bottom: 32px;
     background: var(--white-color);
+    border-bottom: 1px;
+    border-bottom-color: solid #ECECEC;
 }
-
 .container {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -80,7 +79,7 @@ address {
     font-size: 26px;
     line-height: 1.3;
     letter-spacing: 0.03em;
-    /*margin-right: 92px;*/
+    margin-right: 92px;
     color: var(--blue-color);
 }
 
@@ -90,7 +89,7 @@ address {
     line-height: 1.3;
     letter-spacing: 0.03em;
     color: var(--black-color);
-}
+   }
 
 .nav-contact {
     display: flex;
@@ -101,7 +100,9 @@ address {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--title-color);
+    color: var(--title-color); 
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .nav-list-itm:not(:last-child) {
@@ -116,14 +117,16 @@ address {
 .menu-list-itm:focus {
     color: var(--blue-color);
 }
-
+.contact-list {
+ margin-left: 50px;
+}
 .menu-list-contact {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
-    margin-left: 50px;
+   
 }
 
 .menu-list-contact:hover,
@@ -136,7 +139,8 @@ address {
 
 .main-hero {
     background-color: var(--footter-color);
-    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .main-title {
@@ -148,9 +152,9 @@ address {
     text-transform: uppercase;
     background: var(--footter-color);
     color: var(--white-color);
-    padding-top: 200px;
-    padding-left: 236px;
-    padding-right: 236px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
 }
 
@@ -169,8 +173,7 @@ address {
     color: var(--white-color);
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 200px;
-}
+    }
 
 .order-button {
     font-weight: 500;
@@ -194,17 +197,15 @@ address {
 }
 
 .about-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    margin-top: 94px;
+    margin-bottom: 94px;
 }
 
 .about-container {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 26px;
-    padding-bottom: 24px;
-}
+    }
 
 .title {
     font-weight: 700;
@@ -213,21 +214,27 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
-    margin-right: 30px;
+    }
+.about-li {
+  width: 270px; 
+  margin-right: 30px;
 }
-
 .text-normal {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-color);
-    margin-right: 30px;
+    
 }
-
+.about-second-section {
+    padding-top: 0px;
+    margin-bottom: 94px;
+}
 .about-img-container {
     display: flex;
     margin-left: -30px;
+    padding-left: 0px;
 }
 
 .about-img {
@@ -248,12 +255,15 @@ address {
 
 .section-comand {
     background: #F5F4FA;
+    padding-left: 0px;
+    padding-bottom: 94px;
 }
 
 .main-comand {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
+    padding-left: 0px;
 }
 
 .name-comand {
@@ -264,8 +274,9 @@ address {
     letter-spacing: 0.03em;
     background-color: var(--white-color);
     color: var(--title-color);
-    padding-left: auto;
-    padding-right: auto;
+    width: 270px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 30px;
     padding-bottom: 10px;
     margin-bottom: 0px;
@@ -283,9 +294,10 @@ address {
     letter-spacing: 0.03em;
     background-color: var(--white-color);
     color: var(--text-color);
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 30px;
+    width: 270px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -303,10 +315,11 @@ address {
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
+    padding-left: 0px;
     }
 
 .img-back-portfolio {
-    /* padding-left: 0px;*/
+    padding-left: 0px;padding-right: 0px;
     /*margin-left: 30px;*/
    margin-left: 30px;
     margin-top: 30px;

@@ -141,6 +141,7 @@ address {
 }
 
 /*===== END HEADER =====*/
+
 /*===== START HERO =====*/
 
 .main-hero {
@@ -204,7 +205,7 @@ address {
 
 .about-section {
     padding-top: 94px;
-    /* padding-bottom: 94px;*/
+    padding-bottom: 94px;
 }
 
 .about-container {
@@ -327,11 +328,14 @@ address {
     margin-top: 0px;
 }
 
+/*=====END HERO =====*/
+
 /*=====Portfolio=====*/
 .portfolio-btn {
     display: flex;
     justify-content: center;
     padding-left: 0px;
+    margin-bottom: 50px;
 }
 
 .main-portfolio {
@@ -352,7 +356,20 @@ address {
 }
 
 .portfolio-btn-li:not(:last-child) {
-    margin-bottom: 50px;
+    margin-right: 8px;
+}
+
+.order-button-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+    border-color: #F5F4FA;
+    padding: 6px 22px;
 }
 
 .foto-box {
@@ -385,10 +402,11 @@ address {
     padding-left: auto;
     padding-right: auto;
     padding-top: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
-/*=====END HERO =====*/
+/*=====END Portfolio=====*/
+
 /*===== START FOOTTER =====*/
 .main-footter {
     padding-top: 60px;
@@ -430,6 +448,15 @@ address {
     color: var(--white-color);
 }
 
+.fotter-links {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.step {
+    margin-bottom: 12px;
+}
+
 .footter-address-grey {
     font-style: normal;
     font-weight: 400;
@@ -437,11 +464,10 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 12px;
 }
 
 .footter-address-white:hover,
-.footter-address-whitem:focus {
+.footter-address-white:focus {
     color: var(--blue-color);
 }
 
@@ -450,4 +476,4 @@ address {
     color: var(--blue-color);
 }
 
-/*===== END FOOTTER =====*/  
+/*===== END FOOTTER =====*/

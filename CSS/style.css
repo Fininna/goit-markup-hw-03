@@ -18,6 +18,7 @@ h2,
 h3,
 p {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 ul {
@@ -373,14 +374,14 @@ address {
 }
 
 .foto-box {
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
     padding-top: 20px;
-    padding-bottom: 4px;
-    border-left: 1px;
-    border-right: 1px;
+    padding-bottom: 20px;
+    border: 1px solid #EEEEEE;
+    /*border-right: 1px;
     border-bottom: 1px;
-    border-color: #EEEEEE;
+    border-color: */
 
 }
 
@@ -390,7 +391,7 @@ address {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-color);
-    margin-bottom: 4px;
+    margin-bottom: 0px;
 }
 
 .text-portfolio {
